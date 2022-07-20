@@ -45,8 +45,8 @@ This project was put together using create-react-app (CRA). You will not need to
 
 **File structure**
 
-- [ ] Take a look at your planned components. Create the folders and files you need for each component.
-- [ ] Leave most of them blank for now - you need to get your data from the API before you can really get these built.
+- [x ] Take a look at your planned components. Create the folders and files you need for each component.
+- [ x] Leave most of them blank for now - you need to get your data from the API before you can really get these built.
 
 **Fetching the Data**
 
@@ -55,8 +55,8 @@ This project was put together using create-react-app (CRA). You will not need to
 - [ x] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and read through the docs to see how to make the API call.
 - [ xx] You don't _need_ an API key. However you may need one if you exceed the API request limits.
 - [ x] Using the endpoint given, fetch the data using `axios`.
-- [ ] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
-- [ ] Before you add your data to state, make sure your effect hook has a dependency array (probably empty, since we don't want this effect synced up to any state/props), otherwise you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to use a real API_KEY.**
+- [ x] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
+- [x ] Before you add your data to state, make sure your effect hook has a dependency array (probably empty, since we don't want this effect synced up to any state/props), otherwise you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to use a real API_KEY.**
 
 DEMO KEY rate limits:
 

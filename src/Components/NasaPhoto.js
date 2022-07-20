@@ -9,7 +9,7 @@ const NasaPhoto = (props) => {
         src={props.photo.hdurl}
         alt="Jupiter and Ring in Infrared from Webb"
       />
-      <p>{props.photo.explanation}</p>
+      <p className="explanation">{props.photo.explanation}</p>
     </div>
   );
 };
